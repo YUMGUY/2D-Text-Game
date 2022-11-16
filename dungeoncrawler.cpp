@@ -32,7 +32,7 @@ int main() {
         // create map, or quit if map load error
         char** map = loadLevel(fileName, maxRow, maxCol, player);
         if (map == nullptr) {
-            cout << "Returning you back to the real word, adventurer!" << endl;
+            cout << "Returning you back to the real world, adventurer!" << endl;
             return 1;
         }
         

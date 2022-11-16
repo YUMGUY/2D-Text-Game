@@ -25,6 +25,7 @@ char** loadLevel(const string& fileName, int& maxRow, int& maxCol, Player& playe
     string Line_Data = "";
     bool exit_exist = false;
 
+    std::cout << fileName << std::endl;
     ifstream filelol(fileName);
 
     // case where file doesn't exist or cannot open
