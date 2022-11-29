@@ -3,7 +3,7 @@
 using std::cout, std::endl;
 
 
-// do not change
+
 void printInstructions() {
     cout << endl;
     cout << "---------------------------------------------------------" << endl;
@@ -25,7 +25,7 @@ void printInstructions() {
     cout << endl;
 }
 
-// do not change
+
 void outputMap(char** map, const int maxRow, const int maxCol) {
     // output top border
     cout << "+";

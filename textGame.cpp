@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include "helper.h"
-#include "logic.h"
+#include "textLogic.h"
 using std::cin, std::cout, std::endl, std::string, std::ifstream;
 
 
